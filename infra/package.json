@@ -1,0 +1,32 @@
+{
+  "name": "@planpath/infra",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "lint": "oxlint",
+    "cdk": "cdk",
+    "deploy": "cdk deploy PlanPathChatStack",
+    "diff": "cdk diff PlanPathChatStack",
+    "synth": "cdk synth"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.1129.0",
+    "@aws-sdk/client-ssm": "^3.1129.0",
+    "@aws-sdk/client-sts": "^3.1129.0",
+    "@aws-sdk/lib-dynamodb": "^3.1129.0",
+    "aws-cdk-lib": "^2.263.0",
+    "constructs": "^10.4.2",
+    "source-map-support": "^0.5.21"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.162",
+    "@types/node": "^24.13.3",
+    "aws-cdk": "^2.1134.0",
+    "esbuild": "^0.24.2",
+    "oxlint": "^1.79.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~6.0.2"
+  }
+}

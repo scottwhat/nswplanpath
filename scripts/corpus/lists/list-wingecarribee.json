@@ -1,0 +1,842 @@
+[
+ {
+  "doc_id": "wingecarribee-dcp-rural-lands-dcp",
+  "title": "Rural Lands DCP(PDF, 11MB)",
+  "instrument_type": "DCP",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/dcps/2021/rural-lands-dcp.pdf",
+  "path": "local/wingecarribee/dcp/rural/rural-lands-dcp.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-dcp-rural-living-dcp",
+  "title": "Rural Living DCP(PDF, 12MB)",
+  "instrument_type": "DCP",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/dcps/2021/rural-living-dcp.pdf",
+  "path": "local/wingecarribee/dcp/rural/rural-living-dcp.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-dcp-industrial-land-dcp",
+  "title": "Industrial Lands DCP(PDF, 2MB)",
+  "instrument_type": "DCP",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/dcps/2021/industrial-land-dcp.pdf",
+  "path": "local/wingecarribee/dcp/industrial/industrial-land-dcp.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-dcp-berrima-dcp",
+  "title": "Berrima DCP(PDF, 14MB)",
+  "instrument_type": "DCP",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/dcps/2021/berrima-dcp.pdf",
+  "path": "local/wingecarribee/dcp/general/berrima-dcp.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-dcp-berrima-section-8",
+  "title": "Berrima Village - Development in a Heritage Context(PDF, 5MB)",
+  "instrument_type": "DCP",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/dcps/berrima-section-8.pdf",
+  "path": "local/wingecarribee/dcp/general/berrima-section-8.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-dcp-bowral-dcp",
+  "title": "Bowral DCP(PDF, 12MB)",
+  "instrument_type": "DCP",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/2/plan-and-build/dcps/2021/bowral-dcp.pdf",
+  "path": "local/wingecarribee/dcp/bowral/bowral-dcp.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-dcp-bundanoon-dcp",
+  "title": "Bundanoon DCP(PDF, 5MB)",
+  "instrument_type": "DCP",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/dcps/2021/bundanoon-dcp.pdf",
+  "path": "local/wingecarribee/dcp/bundanoon/bundanoon-dcp.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-dcp-burrawang-dcp",
+  "title": "Burrawang DCP(PDF, 6MB)",
+  "instrument_type": "DCP",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/dcps/2021/burrawang-dcp.pdf",
+  "path": "local/wingecarribee/dcp/general/burrawang-dcp.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-dcp-exeter-dcp",
+  "title": "Exeter DCP(PDF, 5MB)",
+  "instrument_type": "DCP",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/dcps/2021/exeter-dcp.pdf",
+  "path": "local/wingecarribee/dcp/general/exeter-dcp.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-dcp-fitzroy-falls-dcp",
+  "title": "Fitzroy Falls DCP(PDF, 5MB)",
+  "instrument_type": "DCP",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/dcps/2021/fitzroy-falls-dcp.pdf",
+  "path": "local/wingecarribee/dcp/general/fitzroy-falls-dcp.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-dcp-northern-villages-dcp",
+  "title": "Northern Villages DCP(PDF, 6MB)",
+  "instrument_type": "DCP",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/dcps/2021/northern-villages-dcp.pdf",
+  "path": "local/wingecarribee/dcp/general/northern-villages-dcp.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-mittagong-dcp",
+  "title": "Mittagong DCP(PDF, 22MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/mittagong-dcp.pdf",
+  "path": "local/wingecarribee/contributions/mittagong-dcp.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-dcp-moss-vale-dcp",
+  "title": "Moss Vale DCP(PDF, 8MB)",
+  "instrument_type": "DCP",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/dcps/2021/moss-vale-dcp.pdf",
+  "path": "local/wingecarribee/dcp/moss-vale/moss-vale-dcp.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-dcp-cgc-dcp-as-adopted",
+  "title": "Chelsea Gardens Coomungie Precinct Plan(PDF, 6MB)",
+  "instrument_type": "DCP",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/dcps/cgc-dcp-as-adopted.pdf",
+  "path": "local/wingecarribee/dcp/general/cgc-dcp-as-adopted.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-dcp-mvec6",
+  "title": "Moss Vale Enterprise Corridor DCP(PDF, 2MB)",
+  "instrument_type": "DCP",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/dcps/mvec6.pdf",
+  "path": "local/wingecarribee/dcp/general/mvec6.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-moss-vale-enterprise-zone-2080-overall-plan-combined",
+  "title": "Moss Vale Enterprise Zone 2080 overall plan (combined)(PDF, 1MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/moss-vale-enterprise-zone-2080-overall-plan-combined.pdf",
+  "path": "local/wingecarribee/contributions/moss-vale-enterprise-zone-2080-overall-plan-combined.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-moss-vale-enterprise-zone-maps-combined",
+  "title": "Moss Vale Enterprise Zone maps (combined)(PDF, 11MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/moss-vale-enterprise-zone-maps-combined.pdf",
+  "path": "local/wingecarribee/contributions/moss-vale-enterprise-zone-maps-combined.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-moss-vale-enterprise-zone-acquisition-acq-sheets-1-11",
+  "title": "Moss Vale Enterprise Zone ACQ Sheets 1-11(PDF, 5MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/2/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/moss-vale-enterprise-zone-acquisition-acq-sheets-1-11.pdf",
+  "path": "local/wingecarribee/contributions/moss-vale-enterprise-zone-acquisition-acq-sheets-1-11.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-dcp-new-berrima-medway-dcp",
+  "title": "New Berrima and Medway DCP(PDF, 5MB)",
+  "instrument_type": "DCP",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/dcps/2021/new-berrima-medway-dcp.pdf",
+  "path": "local/wingecarribee/dcp/general/new-berrima-medway-dcp.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-dcp-penrose-wingello-dcp",
+  "title": "Penrose and Wingello DCP(PDF, 5MB)",
+  "instrument_type": "DCP",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/dcps/2021/penrose-wingello-dcp.pdf",
+  "path": "local/wingecarribee/dcp/general/penrose-wingello-dcp.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-dcp-robertson-dcp",
+  "title": "Robertson DCP(PDF, 4MB)",
+  "instrument_type": "DCP",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/dcps/2021/robertson-dcp.pdf",
+  "path": "local/wingecarribee/dcp/robertson/robertson-dcp.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-dcp-sutton-forest-dcp",
+  "title": "Sutton Forest DCP(PDF, 5MB)",
+  "instrument_type": "DCP",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/dcps/2021/sutton-forest-dcp.pdf",
+  "path": "local/wingecarribee/dcp/general/sutton-forest-dcp.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-fees-wingecarribee-shire-council-fees-and-charges-2026-to-2027",
+  "title": "2026/27 Fees and Charges(PDF, 8MB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/4/council/strategies-amp-plans/integrated-planning-and-reporting-documents-2026/wingecarribee-shire-council-fees-and-charges-2026-to-2027.pdf",
+  "path": "local/wingecarribee/fees/wingecarribee-shire-council-fees-and-charges-2026-to-2027.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-floodplain-management-program",
+  "title": "FloodPlain Management Program(PDF, 83KB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/15/environment/water-in-our-shire/floodplain-management-program-updates/floodplain-management-program.pdf",
+  "path": "local/wingecarribee/flood/floodplain-management-program.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-final-report-bowral-frmsp-2",
+  "title": "Final Report Bowral FRMSP(PDF, 56MB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/final-report-bowral-frmsp-2.pdf",
+  "path": "local/wingecarribee/flood/final-report-bowral-frmsp-2.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-bowral-floodplain-risk-management-plan",
+  "title": "Bowral Floodplain Risk Management Plan(PDF, 1018KB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/bowral-floodplain-risk-management-plan.pdf",
+  "path": "local/wingecarribee/flood/bowral-floodplain-risk-management-plan.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-bowral-flood-risks-precincts",
+  "title": "Bowral Flood Risks Precincts(PDF, 3MB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/bowral-flood-risks-precincts.pdf",
+  "path": "local/wingecarribee/flood/bowral-flood-risks-precincts.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-bowral-100-year-flood-extent",
+  "title": "Bowral 100 Year Flood Extent(PDF, 3MB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/bowral-100-year-flood-extent.pdf",
+  "path": "local/wingecarribee/flood/bowral-100-year-flood-extent.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-bowral-flooding-pictures",
+  "title": "Bowral Flooding Pictures(PDF, 3MB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/bowral-flooding-pictures.pdf",
+  "path": "local/wingecarribee/flood/bowral-flooding-pictures.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-bowral-probable-maximum-flood-extent",
+  "title": "Bowral Probable Maximum Flood Extent(PDF, 5MB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/bowral-probable-maximum-flood-extent.pdf",
+  "path": "local/wingecarribee/flood/bowral-probable-maximum-flood-extent.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-probable-maximum-flood-pmf-extent-burradoo",
+  "title": "Probable Maximum Flood PMF Extent Burradoo(PDF, 373KB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/probable-maximum-flood-pmf-extent-burradoo.pdf",
+  "path": "local/wingecarribee/flood/probable-maximum-flood-pmf-extent-burradoo.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-100-year-flood-extent-map-burradoo",
+  "title": "100 Year Flood Extent Map Burradoo(PDF, 312KB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/100-year-flood-extent-map-burradoo.pdf",
+  "path": "local/wingecarribee/flood/100-year-flood-extent-map-burradoo.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-50-year-flood-extent-map-burradoo",
+  "title": "50 Year Flood Extent Map Burradoo(PDF, 313KB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/50-year-flood-extent-map-burradoo.pdf",
+  "path": "local/wingecarribee/flood/50-year-flood-extent-map-burradoo.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-20-year-flood-extent-map-burradoo",
+  "title": "20 Year Flood Extent Map Burradoo(PDF, 311KB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/20-year-flood-extent-map-burradoo.pdf",
+  "path": "local/wingecarribee/flood/20-year-flood-extent-map-burradoo.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-5-year-flood-extent-map-burradoo",
+  "title": "5 Year Flood Extent Map Burradoo(PDF, 308KB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/5-year-flood-extent-map-burradoo.pdf",
+  "path": "local/wingecarribee/flood/5-year-flood-extent-map-burradoo.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-frequently-asked-questions-august-2009-burradoo",
+  "title": "Frequently Asked Questions August 2009 Burradoo(PDF, 250KB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/frequently-asked-questions-august-2009-burradoo.pdf",
+  "path": "local/wingecarribee/flood/frequently-asked-questions-august-2009-burradoo.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-frequently-asked-questions-september-2009-burradoo",
+  "title": "Frequently Asked Questions September 2009 Burradoo(PDF, 252KB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/frequently-asked-questions-september-2009-burradoo.pdf",
+  "path": "local/wingecarribee/flood/frequently-asked-questions-september-2009-burradoo.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-burradoo-rainfall-event-june-2007-images",
+  "title": "Burradoo Rainfall Event June 2007 Images(PDF, 3MB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/burradoo-rainfall-event-june-2007-images.pdf",
+  "path": "local/wingecarribee/flood/burradoo-rainfall-event-june-2007-images.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-part-1-nattai-ponds",
+  "title": "Part 1 Nattai Ponds(PDF, 21MB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/part-1-nattai-ponds.pdf",
+  "path": "local/wingecarribee/flood/part-1-nattai-ponds.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-part-2-nattai-ponds",
+  "title": "Part 2 Nattai Ponds(PDF, 26MB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/part-2-nattai-ponds.pdf",
+  "path": "local/wingecarribee/flood/part-2-nattai-ponds.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-part-3-nattai-ponds",
+  "title": "Part 3 Nattai Ponds(PDF, 32MB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/part-3-nattai-ponds.pdf",
+  "path": "local/wingecarribee/flood/part-3-nattai-ponds.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-part-4-nattai-ponds",
+  "title": "Part 4 Nattai Ponds(PDF, 27MB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/part-4-nattai-ponds.pdf",
+  "path": "local/wingecarribee/flood/part-4-nattai-ponds.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-1-aep-flood-depth-velocities-nattai-ponds",
+  "title": "1 AEP Flood Depth Velocities Nattai Ponds(PDF, 6MB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/1-aep-flood-depth-velocities-nattai-ponds.pdf",
+  "path": "local/wingecarribee/flood/1-aep-flood-depth-velocities-nattai-ponds.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-1-aep-flood-risk-precinct-maps-nattai-ponds",
+  "title": "1 AEP Flood Risk Precinct Maps Nattai Ponds(PDF, 6MB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/1-aep-flood-risk-precinct-maps-nattai-ponds.pdf",
+  "path": "local/wingecarribee/flood/1-aep-flood-risk-precinct-maps-nattai-ponds.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-whites-creek-fprms-final-report-vol-1",
+  "title": "Whites Creek FPRMS Final Report Vol 1(PDF, 44MB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/whites-creek-fprms-final-report-vol-1.pdf",
+  "path": "local/wingecarribee/flood/whites-creek-fprms-final-report-vol-1.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-whites-creek-fprms-final-report-vol-2",
+  "title": "Whites Creek FPRMS Final Report Vol 2(PDF, 47MB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/whites-creek-fprms-final-report-vol-2.pdf",
+  "path": "local/wingecarribee/flood/whites-creek-fprms-final-report-vol-2.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-frmsp-options-roberston-village",
+  "title": "FRMSP Options Roberston Village(PDF, 19MB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/frmsp-options-roberston-village.pdf",
+  "path": "local/wingecarribee/flood/frmsp-options-roberston-village.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-maps-robertson-village",
+  "title": "Maps Robertson Village(PDF, 15MB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/maps-robertson-village.pdf",
+  "path": "local/wingecarribee/flood/maps-robertson-village.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-final-report-part-1-wingecarribee-river",
+  "title": "Final Report Part 1(PDF, 8MB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/final-report-part-1-wingecarribee-river.pdf",
+  "path": "local/wingecarribee/flood/final-report-part-1-wingecarribee-river.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-final-report-part-2-wingecarribee-river",
+  "title": "Final Report Part 2(PDF, 96MB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/final-report-part-2-wingecarribee-river.pdf",
+  "path": "local/wingecarribee/flood/final-report-part-2-wingecarribee-river.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-flood-stormwater-masterplan-west-mittagong",
+  "title": "Stormwater Masterplan West Mittagong(PDF, 76MB)",
+  "instrument_type": "COUNCIL_POLICY",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/environment/flood-studies/stormwater-masterplan-west-mittagong.pdf",
+  "path": "local/wingecarribee/flood/stormwater-masterplan-west-mittagong.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-developer-contributions-and-charges-1-august-2026-31-october-2026",
+  "title": "Developer Contributions and Charges(PDF, 507KB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/14/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/developer-contributions-and-charges-1-august-2026-31-october-2026.pdf",
+  "path": "local/wingecarribee/contributions/developer-contributions-and-charges-1-august-2026-31-october-2026.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-section-94-plan-for-administration-2011-to-2031-adopted-8-nov-2011",
+  "title": "S94 Plan for Administration 2011 to 2031(PDF, 1MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/section-94-amp-94a-developer-contributions-plans/section-94-plan-for-administration-2011-to-2031-adopted-8-nov-2011.pdf",
+  "path": "local/wingecarribee/contributions/section-94-plan-for-administration-2011-to-2031-adopted-8-nov-2011.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-developer-conributions-plan-for-bundanoon-version-4",
+  "title": "S94 Plan for Bundanoon(PDF, 161KB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/2/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/section-94-amp-94a-developer-contributions-plans/developer-conributions-plan-for-bundanoon-version-4.pdf",
+  "path": "local/wingecarribee/contributions/developer-conributions-plan-for-bundanoon-version-4.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-central-library",
+  "title": "S94 Plan for Central Library Facility(PDF, 70KB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/section-94-amp-94a-developer-contributions-plans/central_library.pdf",
+  "path": "local/wingecarribee/contributions/central-library.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-sectio1",
+  "title": "S94 Plan for Open Space, Recreation, Community & Cultural Facilities 2013 to 2036(PDF, 5MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/section-94-amp-94a-developer-contributions-plans/sectio1.pdf",
+  "path": "local/wingecarribee/contributions/sectio1.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-rrc-contributions-plan-16-sep-2009-2",
+  "title": "S94 Plan for Resource Recovery Centre(PDF, 2MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/section-94-amp-94a-developer-contributions-plans/rrc_contributions_plan_16_sep_2009-2.pdf",
+  "path": "local/wingecarribee/contributions/rrc-contributions-plan-16-sep-2009-2.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-section-94-plan-for-roads-and-traffic-facilities-2012-to-2031-c",
+  "title": "S94 Plan for Roads & Traffic Facilities 2012 to 2031(PDF, 2MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/section-94-amp-94a-developer-contributions-plans/section-94-plan-for-roads-and-traffic-facilities-2012-to-2031-c.pdf",
+  "path": "local/wingecarribee/contributions/section-94-plan-for-roads-and-traffic-facilities-2012-to-2031-c.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-draft-section-94-plan-for-the-moss-vale-enterprize-zone-2013-to-2050-adopted-version",
+  "title": "Moss Vale Enterprise Corridor Section 94 Plan(PDF, 2MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/section-94-amp-94a-developer-contributions-plans/moss-vale-enterprise-corridor-section-94-plan/draft-section-94-plan-for-the-moss-vale-enterprize-zone-2013-to-2050-adopted-version.pdf",
+  "path": "local/wingecarribee/_superseded/contributions/draft-section-94-plan-for-the-moss-vale-enterprize-zone-2013-to-2050-adopted-version.pdf",
+  "superseded": true
+ },
+ {
+  "doc_id": "wingecarribee-contributions-wingecarribee-shire-council-section-7-12-contributions-plan",
+  "title": "Section 7.12 Contribution Plan(PDF, 3MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/5/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/section-94-amp-94a-developer-contributions-plans/wingecarribee-shire-council-section-7.12-contributions-plan.pdf",
+  "path": "local/wingecarribee/contributions/wingecarribee-shire-council-section-7-12-contributions-plan.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-wingecarribee-ws-dsp-amendment-1-april-18",
+  "title": "Water and Sewer Development Servicing Plan<(PDF, 6MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/wingecarribee_ws_dsp_amendment_1_april_18.pdf",
+  "path": "local/wingecarribee/contributions/wingecarribee-ws-dsp-amendment-1-april-18.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-stormwater-development-servicing-plans-with-maps",
+  "title": "Stormwater Development Servicing Plans with Maps(PDF, 12MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/section-64-development-servicing-plans/stormwater-development-servicing-plans-with-maps.pdf",
+  "path": "local/wingecarribee/contributions/stormwater-development-servicing-plans-with-maps.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-stormwater-dsp-background-document-as-adopted-9",
+  "title": "Stormwater Development Servicing Plan Background Paper(PDF, 2MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/section-64-development-servicing-plans/stormwater_dsp_background_document_as_adopted_9_.pdf",
+  "path": "local/wingecarribee/contributions/stormwater-dsp-background-document-as-adopted-9.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-renwick-signed-vpa-part-1",
+  "title": "Renwick VPA - Part 1(PDF, 2MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/renwick-signed-vpa-part-1.pdf",
+  "path": "local/wingecarribee/contributions/renwick-signed-vpa-part-1.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-renwick-signed-vpa-part-2",
+  "title": "Renwick VPA Part 2(PDF, 370KB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/renwick-signed-vpa-part-2.pdf",
+  "path": "local/wingecarribee/contributions/renwick-signed-vpa-part-2.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-signed-deed-of-variation-dated",
+  "title": "Renwick Deed of Variation to VPA(PDF, 286KB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/signed-deed-of-variation-dated.pdf",
+  "path": "local/wingecarribee/contributions/signed-deed-of-variation-dated.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-second-deed-of-variation",
+  "title": "Renwick Second Deed of Variation(PDF, 278KB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/second-deed-of-variation.pdf",
+  "path": "local/wingecarribee/contributions/second-deed-of-variation.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-lot-24-vpa-signed-final",
+  "title": "Douglas Road VPA Lot 24(PDF, 713KB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/lot-24-vpa-signed-final.pdf",
+  "path": "local/wingecarribee/contributions/lot-24-vpa-signed-final.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-lot-24-maloney-deed-of-variation-signed-15-fenruary-2012",
+  "title": "Douglas Road VPA Lot 24 - Deed of Variation(PDF, 415KB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/lot-24-maloney-deed-of-variation-signed-15-fenruary-2012.pdf",
+  "path": "local/wingecarribee/contributions/lot-24-maloney-deed-of-variation-signed-15-fenruary-2012.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-lot-21-vpa-signed-final",
+  "title": "Douglas Road VPA Lot 21(PDF, 757KB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/lot-21-vpa-signed-final.pdf",
+  "path": "local/wingecarribee/contributions/lot-21-vpa-signed-final.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-lot-21-deed-of-variation",
+  "title": "Douglas Road VPA Lot 21 - Deed of Variation(PDF, 755KB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/lot-21-deed-of-variation.pdf",
+  "path": "local/wingecarribee/contributions/lot-21-deed-of-variation.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-douglas-road-vpa-lot-12",
+  "title": "Douglas Road VPA Lot 12(PDF, 1MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/douglas-road-vpa-lot-12.pdf",
+  "path": "local/wingecarribee/contributions/douglas-road-vpa-lot-12.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-frensham-pool",
+  "title": "Frensham Pool VPA(PDF, 3MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/frensham-pool.pdf",
+  "path": "local/wingecarribee/contributions/frensham-pool.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-nattai-pond-vpa-no-1",
+  "title": "Nattai Pond VPA No. 1(PDF, 6MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/nattai-pond-vpa-no.1.pdf",
+  "path": "local/wingecarribee/contributions/nattai-pond-vpa-no-1.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-deed-of-variation-nattai-ponds-vpa-executed-version",
+  "title": "Nattai Ponds VPA No.1 - Deed of Variation(PDF, 276KB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/deed-of-variation-nattai-ponds-vpa-executed-version.pdf",
+  "path": "local/wingecarribee/contributions/deed-of-variation-nattai-ponds-vpa-executed-version.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-nattai-ponds-vpa-2nd-deed-of-variation",
+  "title": "Nattai Ponds VPA No. 1 - Second Deed of Variation(PDF, 308KB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/nattai-ponds-vpa-2nd-deed-of-variation.pdf",
+  "path": "local/wingecarribee/contributions/nattai-ponds-vpa-2nd-deed-of-variation.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-nattai-ponds-vpa-3rd-deed-of-variation",
+  "title": "Nattai Ponds VPA No. 1 - Third Deed of Variation(PDF, 407KB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/nattai-ponds-vpa-3rd-deed-of-variation.pdf",
+  "path": "local/wingecarribee/contributions/nattai-ponds-vpa-3rd-deed-of-variation.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-gibraltar-park-vpa",
+  "title": "Gibraltar Park VPA(PDF, 1MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/3/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/gibraltar-park-vpa.pdf",
+  "path": "local/wingecarribee/contributions/gibraltar-park-vpa.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-retford-park-vpa-signed-18-august-2015",
+  "title": "Retford Park VPA(PDF, 3MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/retford-park-vpa-signed-18-august-2015.pdf",
+  "path": "local/wingecarribee/contributions/retford-park-vpa-signed-18-august-2015.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-final-dirty-janes-vpa-signed-4-12-2015",
+  "title": "Dirty Jane's VPA(PDF, 2MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/2/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/final-dirty-janes-vpa-signed-4-12-2015.pdf",
+  "path": "local/wingecarribee/contributions/final-dirty-janes-vpa-signed-4-12-2015.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-darraby-sewer-planning-agreement-signed-final-with-stamped-plans",
+  "title": "Darraby Sewer VPA(PDF, 5MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/2/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/darraby-sewer-planning-agreement-signed-final-with-stamped-plans.pdf",
+  "path": "local/wingecarribee/contributions/darraby-sewer-planning-agreement-signed-final-with-stamped-plans.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-yarrawa-road-vpa",
+  "title": "Yarrawa Road VPA(PDF, 1MB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/2/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/yarrawa-road-vpa.pdf",
+  "path": "local/wingecarribee/contributions/yarrawa-road-vpa.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-wingecarribee-vpa-letter-of-offer-template-general",
+  "title": "Wingecarribee VPA Letter Of Offer Template - General(PDF, 87KB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/wingecarribee-vpa-letter-of-offer-template-general.pdf",
+  "path": "local/wingecarribee/contributions/wingecarribee-vpa-letter-of-offer-template-general.pdf",
+  "superseded": false
+ },
+ {
+  "doc_id": "wingecarribee-contributions-wingecarribee-vpa-letter-of-offer-template-carparking",
+  "title": "Wingecarribee VPA Letter Of Offer Template - Carparking(PDF, 87KB)",
+  "instrument_type": "CONTRIBUTIONS_PLAN",
+  "tier": 2,
+  "lga": "Wingecarribee",
+  "url": "https://www.wsc.nsw.gov.au/files/assets/public/v/1/plan-and-build/developer-contributions-plans-amp-development-servicing-plans/voluntary-planning-agreements/wingecarribee-vpa-letter-of-offer-template-carparking.pdf",
+  "path": "local/wingecarribee/contributions/wingecarribee-vpa-letter-of-offer-template-carparking.pdf",
+  "superseded": false
+ }
+]

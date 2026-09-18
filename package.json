@@ -1,0 +1,24 @@
+{
+  "name": "planpath",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter @planpath/web dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "preview": "pnpm --filter @planpath/web preview",
+    "typecheck": "pnpm -r typecheck",
+    "deploy:api": "pnpm --filter @planpath/infra run deploy"
+  },
+  "devDependencies": {
+    "oxlint": "^1.79.0",
+    "typescript": "~6.0.2"
+  },
+  "packageManager": "pnpm@10.20.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}

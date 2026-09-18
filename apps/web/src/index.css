@@ -1,0 +1,199 @@
+@import 'tailwindcss';
+
+/*
+ * PlanPath palette — "daylight instrument": a pale blue ground with white
+ * panels, read at a glance in an office. The sci-fi language survives in the
+ * structure — coordinate grid, hairline beams, readout type — but the value
+ * scale is inverted: ink is deep navy, accents are a saturated teal-blue that
+ * holds contrast on white. Red is reserved for fault state only.
+ */
+@theme {
+  /* Ink — darkest first, these are text colours now */
+  --color-navy-990: #061020;
+  --color-navy-950: #0a1a30;
+  --color-navy-900: #0f2440;
+  --color-navy-850: #163155;
+  --color-navy-800: #1d3f6b;
+  --color-navy-700: #2b5688;
+  --color-navy-600: #4874a5;
+  --color-navy-500: #6d94bd;
+  --color-navy-300: #a8c2dc;
+  --color-navy-200: #cbdcee;
+  --color-navy-100: #e3edf8;
+  --color-navy-50: #f2f7fc;
+
+  /* Ground */
+  --color-sky-ground: #eef4fb;
+  --color-sky-panel: #ffffff;
+
+  /* Instrument accent — dark enough for text on white */
+  --color-beam-800: #0d5b6e;
+  --color-beam-700: #0e7490;
+  --color-beam-600: #0891b2;
+  --color-beam-500: #06b6d4;
+  --color-beam-400: #22d3ee;
+  --color-beam-300: #67e8f9;
+
+  /* Reserved: fault state */
+  --color-signal-700: #9f1239;
+  --color-signal-600: #be123c;
+  --color-signal-500: #e11d48;
+  --color-signal-400: #f43f5e;
+
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-sky-ground);
+  color: var(--color-navy-900);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--color-beam-500) 25%, transparent);
+  color: var(--color-navy-990);
+}
+
+/* ── The ground ───────────────────────────────────────────────────────────
+ * Same three layers as before, read in daylight: a cool bloom from the top,
+ * a receding coordinate grid, and a pale sky beneath.
+ */
+.deep-field {
+  position: relative;
+  background-color: var(--color-sky-ground);
+}
+.deep-field::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(
+      120% 70% at 50% -10%,
+      color-mix(in oklab, var(--color-beam-400) 22%, transparent) 0%,
+      transparent 62%
+    ),
+    radial-gradient(
+      70% 50% at 88% 6%,
+      color-mix(in oklab, var(--color-navy-300) 45%, transparent) 0%,
+      transparent 70%
+    );
+}
+.deep-field::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(to right, rgb(13 91 110 / 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(13 91 110 / 0.07) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(120% 80% at 50% 0%, #000 0%, transparent 75%);
+}
+
+/* Panel: white glass over the grid, with a lifted edge. */
+.panel {
+  position: relative;
+  background: color-mix(in oklab, var(--color-sky-panel) 88%, transparent);
+  border: 1px solid color-mix(in oklab, var(--color-navy-500) 26%, transparent);
+  border-radius: 4px;
+  backdrop-filter: blur(12px);
+  box-shadow:
+    0 1px 2px rgb(15 36 64 / 0.05),
+    0 14px 34px -22px rgb(15 36 64 / 0.45);
+}
+
+/* The recurring motif: a hairline that ignites at one end. */
+.rule-beam {
+  position: relative;
+}
+.rule-beam::after {
+  content: '';
+  position: absolute;
+  inset-inline: 0;
+  bottom: -1px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    var(--color-beam-600) 0%,
+    color-mix(in oklab, var(--color-beam-600) 45%, transparent) 24%,
+    transparent 66%
+  );
+}
+
+/* Small caps label with tracking — the readout typeface. */
+.readout {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--color-beam-700);
+}
+
+/* On light, "glow" is a coloured lift, not a bloom. */
+.glow-beam {
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--color-beam-500) 18%, transparent);
+}
+
+.text-glow {
+  text-shadow: none;
+}
+
+/* A slow sweep, used on the pending indicator. */
+@keyframes sweep {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(300%); }
+}
+.sweep::after {
+  content: '';
+  position: absolute;
+  inset-block: 0;
+  width: 33%;
+  background: linear-gradient(90deg, transparent, var(--color-beam-600), transparent);
+  animation: sweep 1.6s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; box-shadow: 0 0 0 0 color-mix(in oklab, var(--color-beam-500) 45%, transparent); }
+  50% { opacity: 0.6; box-shadow: 0 0 0 5px transparent; }
+}
+.pulse-dot {
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sweep::after,
+  .pulse-dot {
+    animation: none;
+  }
+}
+
+/* Scrollbars, in palette. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-navy-300) transparent;
+}
+
+/* Mapbox controls, on the light basemap. */
+.mapboxgl-ctrl-group {
+  background: rgb(255 255 255 / 0.92) !important;
+  border: 1px solid color-mix(in oklab, var(--color-navy-500) 30%, transparent) !important;
+  box-shadow: 0 2px 8px -2px rgb(15 36 64 / 0.25) !important;
+  backdrop-filter: blur(8px);
+}
+.mapboxgl-ctrl-group button + button {
+  border-top: 1px solid color-mix(in oklab, var(--color-navy-500) 24%, transparent) !important;
+}
+.mapboxgl-ctrl-scale {
+  background: rgb(255 255 255 / 0.85) !important;
+  border-color: color-mix(in oklab, var(--color-beam-700) 45%, transparent) !important;
+  color: var(--color-beam-800) !important;
+  font-family: var(--font-mono);
+  font-size: 10px !important;
+}

@@ -1,0 +1,46 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Downloaded document corpus (~2.7 GB) — rebuild via scripts/corpus, don't commit.
+# The lock file and README are the provenance record, so keep those.
+data/corpus/*
+!data/corpus/manifest.lock.json
+!data/corpus/README.md
+
+# Raw cadastre harvest (~1.4 GB) — rebuild via scripts/cadastre
+data/cadastre/raw/
+
+# Built vector tiles (~180 MB, over GitHub's 100 MB file limit) — rebuild via scripts/cadastre/build-tiles.sh
+data/cadastre/tiles/
+
+# Env files (keep the example)
+.env
+.env.*
+!.env.example
+
+# Generated / tool caches
+.tanstack/
+cdk.out/
+*.tsbuildinfo

@@ -1,0 +1,29 @@
+# AWS Amplify Hosting build for apps/web. Connect the repo as a monorepo with
+# app root `apps/web` (Amplify sets AMPLIFY_MONOREPO_APP_ROOT to match).
+#
+# VITE_* vars come from Amplify → Environment variables — .env.local is not
+# committed. Deep links (/site/$propertyId) need the SPA rewrite in Amplify →
+# Rewrites and redirects: non-file paths → /index.html, 200.
+version: 1
+applications:
+  - appRoot: apps/web
+    frontend:
+      phases:
+        preBuild:
+          commands:
+            # Vite 8 needs Node 20.19+/22; the default build image may be older.
+            - nvm install 22 && nvm use 22
+            - corepack enable
+            # Install from the workspace root so @planpath/shared resolves.
+            - pnpm --dir ../.. install --frozen-lockfile
+        build:
+          commands:
+            - pnpm run build
+      artifacts:
+        baseDirectory: dist
+        files:
+          - '**/*'
+      cache:
+        paths:
+          - ../../node_modules/**/*
+          - node_modules/**/*

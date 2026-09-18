@@ -1,0 +1,317 @@
+[
+ {
+  "id": "epi-2021-0498",
+  "doc_id": "bayside-lep-2021",
+  "title": "Bayside Local Environmental Plan 2021",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Bayside",
+  "path": "local/bayside/lep/bayside-lep-2021.html"
+ },
+ {
+  "id": "epi-2015-0239",
+  "doc_id": "blacktown-lep-2015",
+  "title": "Blacktown Local Environmental Plan 2015",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Blacktown",
+  "path": "local/blacktown/lep/blacktown-lep-2015.html"
+ },
+ {
+  "id": "epi-2015-0829",
+  "doc_id": "blue-mountains-lep-2015",
+  "title": "Blue Mountains Local Environmental Plan 2015",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Blue Mountains",
+  "path": "local/blue-mountains/lep/blue-mountains-lep-2015.html"
+ },
+ {
+  "id": "epi-2012-0550",
+  "doc_id": "burwood-lep-2012",
+  "title": "Burwood Local Environmental Plan 2012",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Burwood",
+  "path": "local/burwood/lep/burwood-lep-2012.html"
+ },
+ {
+  "id": "epi-2010-0514",
+  "doc_id": "camden-lep-2010",
+  "title": "Camden Local Environmental Plan 2010",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Camden",
+  "path": "local/camden/lep/camden-lep-2010.html"
+ },
+ {
+  "id": "epi-2015-0754",
+  "doc_id": "campbelltown-lep-2015",
+  "title": "Campbelltown Local Environmental Plan 2015",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Campbelltown",
+  "path": "local/campbelltown/lep/campbelltown-lep-2015.html"
+ },
+ {
+  "id": "epi-2013-0389",
+  "doc_id": "canada-bay-lep-2013",
+  "title": "Canada Bay Local Environmental Plan 2013",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Canada Bay",
+  "path": "local/canada-bay/lep/canada-bay-lep-2013.html"
+ },
+ {
+  "id": "epi-2023-0336",
+  "doc_id": "canterbury-bankstown-lep-2023",
+  "title": "Canterbury-Bankstown Local Environmental Plan 2023",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Canterbury-Bankstown",
+  "path": "local/canterbury-bankstown/lep/canterbury-bankstown-lep-2023.html"
+ },
+ {
+  "id": "epi-2021-0651",
+  "doc_id": "cumberland-lep-2021",
+  "title": "Cumberland Local Environmental Plan 2021",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Cumberland",
+  "path": "local/cumberland/lep/cumberland-lep-2021.html"
+ },
+ {
+  "id": "epi-2013-0213",
+  "doc_id": "fairfield-lep-2013",
+  "title": "Fairfield Local Environmental Plan 2013",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Fairfield",
+  "path": "local/fairfield/lep/fairfield-lep-2013.html"
+ },
+ {
+  "id": "epi-2021-0587",
+  "doc_id": "georges-river-lep-2021",
+  "title": "Georges River Local Environmental Plan 2021",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Georges River",
+  "path": "local/georges-river/lep/georges-river-lep-2021.html"
+ },
+ {
+  "id": "epi-2012-0470",
+  "doc_id": "hawkesbury-lep-2012",
+  "title": "Hawkesbury Local Environmental Plan 2012",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Hawkesbury",
+  "path": "local/hawkesbury/lep/hawkesbury-lep-2012.html"
+ },
+ {
+  "id": "epi-2013-0569",
+  "doc_id": "hornsby-lep-2013",
+  "title": "Hornsby Local Environmental Plan 2013",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Hornsby",
+  "path": "local/hornsby/lep/hornsby-lep-2013.html"
+ },
+ {
+  "id": "epi-2013-0034",
+  "doc_id": "hunters-hill-lep-2012",
+  "title": "Hunters Hill Local Environmental Plan 2012",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Hunters Hill",
+  "path": "local/hunters-hill/lep/hunters-hill-lep-2012.html"
+ },
+ {
+  "id": "epi-2022-0457",
+  "doc_id": "inner-west-lep-2022",
+  "title": "Inner West Local Environmental Plan 2022",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Inner West",
+  "path": "local/inner-west/lep/inner-west-lep-2022.html"
+ },
+ {
+  "id": "epi-2015-0134",
+  "doc_id": "ku-ring-gai-lep-2015",
+  "title": "Ku-ring-gai Local Environmental Plan 2015",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Ku-ring-gai",
+  "path": "local/ku-ring-gai/lep/ku-ring-gai-lep-2015.html"
+ },
+ {
+  "id": "epi-2010-0049",
+  "doc_id": "lane-cove-lep-2009",
+  "title": "Lane Cove Local Environmental Plan 2009",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Lane Cove",
+  "path": "local/lane-cove/lep/lane-cove-lep-2009.html"
+ },
+ {
+  "id": "epi-2008-0403",
+  "doc_id": "liverpool-lep-2008",
+  "title": "Liverpool Local Environmental Plan 2008",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Liverpool",
+  "path": "local/liverpool/lep/liverpool-lep-2008.html"
+ },
+ {
+  "id": "epi-2011-0647",
+  "doc_id": "mosman-lep-2012",
+  "title": "Mosman Local Environmental Plan 2012",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Mosman",
+  "path": "local/mosman/lep/mosman-lep-2012.html"
+ },
+ {
+  "id": "epi-2013-0411",
+  "doc_id": "north-sydney-lep-2013",
+  "title": "North Sydney Local Environmental Plan 2013",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "North Sydney",
+  "path": "local/north-sydney/lep/north-sydney-lep-2013.html"
+ },
+ {
+  "id": "epi-2023-0117",
+  "doc_id": "parramatta-lep-2023",
+  "title": "Parramatta Local Environmental Plan 2023",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Parramatta",
+  "path": "local/parramatta/lep/parramatta-lep-2023.html"
+ },
+ {
+  "id": "epi-2010-0540",
+  "doc_id": "penrith-lep-2010",
+  "title": "Penrith Local Environmental Plan 2010",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Penrith",
+  "path": "local/penrith/lep/penrith-lep-2010.html"
+ },
+ {
+  "id": "epi-2013-0036",
+  "doc_id": "randwick-lep-2012",
+  "title": "Randwick Local Environmental Plan 2012",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Randwick",
+  "path": "local/randwick/lep/randwick-lep-2012.html"
+ },
+ {
+  "id": "epi-2014-0608",
+  "doc_id": "ryde-lep-2014",
+  "title": "Ryde Local Environmental Plan 2014",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Ryde",
+  "path": "local/ryde/lep/ryde-lep-2014.html"
+ },
+ {
+  "id": "epi-2013-0115",
+  "doc_id": "strathfield-lep-2012",
+  "title": "Strathfield Local Environmental Plan 2012",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Strathfield",
+  "path": "local/strathfield/lep/strathfield-lep-2012.html"
+ },
+ {
+  "id": "epi-2015-0319",
+  "doc_id": "sutherland-shire-lep-2015",
+  "title": "Sutherland Shire Local Environmental Plan 2015",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Sutherland Shire",
+  "path": "local/sutherland/lep/sutherland-shire-lep-2015.html"
+ },
+ {
+  "id": "epi-2012-0628",
+  "doc_id": "sydney-lep-2012",
+  "title": "Sydney Local Environmental Plan 2012",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Sydney",
+  "path": "local/sydney/lep/sydney-lep-2012.html"
+ },
+ {
+  "id": "epi-2019-0596",
+  "doc_id": "the-hills-lep-2019",
+  "title": "The Hills Local Environmental Plan 2019",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "The Hills",
+  "path": "local/the-hills/lep/the-hills-lep-2019.html"
+ },
+ {
+  "id": "epi-2012-0540",
+  "doc_id": "waverley-lep-2012",
+  "title": "Waverley Local Environmental Plan 2012",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Waverley",
+  "path": "local/waverley/lep/waverley-lep-2012.html"
+ },
+ {
+  "id": "epi-2012-0679",
+  "doc_id": "willoughby-lep-2012",
+  "title": "Willoughby Local Environmental Plan 2012",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Willoughby",
+  "path": "local/willoughby/lep/willoughby-lep-2012.html"
+ },
+ {
+  "id": "epi-2011-0085",
+  "doc_id": "wollondilly-lep-2011",
+  "title": "Wollondilly Local Environmental Plan 2011",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Wollondilly",
+  "path": "local/wollondilly/lep/wollondilly-lep-2011.html"
+ },
+ {
+  "id": "epi-2015-0020",
+  "doc_id": "woollahra-lep-2014",
+  "title": "Woollahra Local Environmental Plan 2014",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Woollahra",
+  "path": "local/woollahra/lep/woollahra-lep-2014.html"
+ },
+ {
+  "id": "epi-2011-0649",
+  "doc_id": "warringah-lep-2011",
+  "title": "Warringah Local Environmental Plan 2011",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Northern Beaches",
+  "path": "local/northern-beaches/lep/warringah-lep-2011.html"
+ },
+ {
+  "id": "epi-2014-0320",
+  "doc_id": "pittwater-lep-2014",
+  "title": "Pittwater Local Environmental Plan 2014",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Northern Beaches",
+  "path": "local/northern-beaches/lep/pittwater-lep-2014.html"
+ },
+ {
+  "id": "epi-2013-0140",
+  "doc_id": "manly-lep-2013",
+  "title": "Manly Local Environmental Plan 2013",
+  "instrument_type": "LEP",
+  "tier": 2,
+  "lga": "Northern Beaches",
+  "path": "local/northern-beaches/lep/manly-lep-2013.html"
+ }
+]

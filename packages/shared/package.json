@@ -1,0 +1,22 @@
+{
+  "name": "@planpath/shared",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc -b --noEmit",
+    "lint": "oxlint"
+  },
+  "dependencies": {
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/geojson": "^7946.0.16",
+    "oxlint": "^1.79.0",
+    "typescript": "~6.0.2"
+  }
+}

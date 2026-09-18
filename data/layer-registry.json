@@ -1,0 +1,58 @@
+{
+  "$comment": "Probed and verified against the live services. Regenerate with scripts/verify-layers when that exists; do not hand-edit URLs without re-probing.",
+  "verified_at": "2026-09-09",
+  "layers": {
+    "cadastre_lot": {
+      "name": "Lot (NSW DCDB)",
+      "service": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Land_Parcel_Property_Theme/FeatureServer",
+      "layer_id": 8,
+      "geometry_type": "esriGeometryPolygon",
+      "service_crs": "EPSG:3857",
+      "query_out_crs": "EPSG:4326",
+      "max_record_count": 2000,
+      "min_scale": 100000,
+      "query_format": "esriJSON",
+      "$format_note": "f=geojson returns HTTP 503 on this server (f=json works). Query Esri JSON and convert client-side.",
+      "cors": "sends access-control-allow-origin for the requesting origin",
+      "key_fields": {
+        "lot_id": "lotidstring",
+        "lot_number": "lotnumber",
+        "section_number": "sectionnumber",
+        "plan_label": "planlabel",
+        "plan_area": "planlotarea",
+        "plan_area_units": "planlotareaunits"
+      }
+    },
+    "cadastre_property": {
+      "name": "Property (NSW DCDB)",
+      "service": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Land_Parcel_Property_Theme/FeatureServer",
+      "layer_id": 12,
+      "geometry_type": "esriGeometryPolygon",
+      "service_crs": "EPSG:3857",
+      "query_out_crs": "EPSG:4326",
+      "query_format": "esriJSON",
+      "$status": "not yet used \u2014 propertyId resolution lands with the site service (build plan step 1)",
+      "key_fields": {}
+    },
+    "address_point": {
+      "name": "AddressPoint (NSW Geocoded Addressing Theme)",
+      "service": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Geocoded_Addressing_Theme/FeatureServer",
+      "layer_id": 1,
+      "geometry_type": "esriGeometryPoint",
+      "service_crs": "EPSG:4326",
+      "query_out_crs": "EPSG:4326",
+      "max_record_count": 2000,
+      "query_format": "esriJSON",
+      "$query_note": "address values are UPPERCASE, formatted '<number> <street> <suburb>'. A prefix LIKE 'X%' answers in ~0.2s; an embedded wildcard ('X%Y%') defeats the index and took 12s. Prefix only.",
+      "cors": "sends access-control-allow-origin for the requesting origin",
+      "key_fields": {
+        "address": "address",
+        "gurasid": "gurasid"
+      }
+    }
+  },
+  "geocoder": {
+    "provider": "nsw_address_point",
+    "$note": "Replaced Mapbox forward geocoding on 2026-09-09. Suggestions come from the NSW address layer above, so a picked result is a real NSW address point rather than an approximate match. The propertyId link still comes with the site service (build plan step 1); the lot is currently resolved spatially by intersecting the address point with the cadastre."
+  }
+}

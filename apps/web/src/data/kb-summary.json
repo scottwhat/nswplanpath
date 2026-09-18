@@ -1,0 +1,1035 @@
+{
+  "$generated_by": "scripts/corpus/build-kb-summary.mjs — do not hand-edit",
+  "generated_at": "2026-09-10",
+  "totals": {
+    "documents": 785,
+    "superseded_retained": 42,
+    "lgas": 35,
+    "ingest_window": {
+      "first": "2026-09-09",
+      "last": "2026-09-10"
+    }
+  },
+  "by_instrument_type": [
+    {
+      "name": "DCP",
+      "count": 272
+    },
+    {
+      "name": "CONTRIBUTIONS_PLAN",
+      "count": 120
+    },
+    {
+      "name": "SEPP",
+      "count": 114
+    },
+    {
+      "name": "COUNCIL_POLICY",
+      "count": 98
+    },
+    {
+      "name": "GUIDELINE",
+      "count": 93
+    },
+    {
+      "name": "CASE_LAW",
+      "count": 39
+    },
+    {
+      "name": "LEP",
+      "count": 37
+    },
+    {
+      "name": "ACT",
+      "count": 10
+    },
+    {
+      "name": "REGULATION",
+      "count": 2
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "id": "legislation",
+      "label": "Legislation",
+      "documents": 126,
+      "dated": 126,
+      "undated": 0,
+      "earliest": "2023-08-04",
+      "latest": "2026-09-01",
+      "instrument_types": [
+        {
+          "name": "SEPP",
+          "count": 114
+        },
+        {
+          "name": "ACT",
+          "count": 10
+        },
+        {
+          "name": "REGULATION",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "id": "local",
+      "label": "Local instruments",
+      "documents": 526,
+      "dated": 34,
+      "undated": 492,
+      "earliest": "2026-07-01",
+      "latest": "2026-09-04",
+      "instrument_types": [
+        {
+          "name": "DCP",
+          "count": 272
+        },
+        {
+          "name": "CONTRIBUTIONS_PLAN",
+          "count": 120
+        },
+        {
+          "name": "COUNCIL_POLICY",
+          "count": 97
+        },
+        {
+          "name": "LEP",
+          "count": 37
+        }
+      ]
+    },
+    {
+      "tier": 3,
+      "id": "guidance",
+      "label": "Guidance",
+      "documents": 94,
+      "dated": 11,
+      "undated": 83,
+      "earliest": "2019-11-01",
+      "latest": "2026-08-13",
+      "instrument_types": [
+        {
+          "name": "GUIDELINE",
+          "count": 93
+        },
+        {
+          "name": "COUNCIL_POLICY",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "tier": 4,
+      "id": "advisory",
+      "label": "Advisory",
+      "documents": 39,
+      "dated": 39,
+      "undated": 0,
+      "earliest": "2003-01-01",
+      "latest": "2017-01-01",
+      "instrument_types": [
+        {
+          "name": "CASE_LAW",
+          "count": 39
+        }
+      ]
+    }
+  ],
+  "state_instruments": [
+    {
+      "doc_id": "epa-act-1979",
+      "title": "Environmental Planning and Assessment Act 1979",
+      "instrument_type": "ACT",
+      "version": "1 September 2026",
+      "iso": "2026-09-01",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-1979-203"
+    },
+    {
+      "doc_id": "epa-regulation-2021",
+      "title": "Environmental Planning and Assessment Regulation 2021",
+      "instrument_type": "REGULATION",
+      "version": "1 September 2026",
+      "iso": "2026-09-01",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/sl-2021-0759"
+    },
+    {
+      "doc_id": "precincts-central-river-city-sepp-2021",
+      "title": "SEPP (Precincts—Central River City) 2021",
+      "instrument_type": "SEPP",
+      "version": "1 September 2026",
+      "iso": "2026-09-01",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/epi-2021-0725"
+    },
+    {
+      "doc_id": "precincts-eastern-harbour-city-sepp-2021",
+      "title": "SEPP (Precincts—Eastern Harbour City) 2021",
+      "instrument_type": "SEPP",
+      "version": "1 September 2026",
+      "iso": "2026-09-01",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/epi-2021-0726"
+    },
+    {
+      "doc_id": "planning-systems-sepp-2021",
+      "title": "SEPP (Planning Systems) 2021",
+      "instrument_type": "SEPP",
+      "version": "18 August 2026",
+      "iso": "2026-08-18",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/epi-2021-0724"
+    },
+    {
+      "doc_id": "building-development-certifiers-act-2018",
+      "title": "Building and Development Certifiers Act 2018",
+      "instrument_type": "ACT",
+      "version": "14 August 2026",
+      "iso": "2026-08-14",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-2018-063"
+    },
+    {
+      "doc_id": "roads-act-1993",
+      "title": "Roads Act 1993",
+      "instrument_type": "ACT",
+      "version": "14 August 2026",
+      "iso": "2026-08-14",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-1993-033"
+    },
+    {
+      "doc_id": "housing-sepp-2021",
+      "title": "SEPP (Housing) 2021",
+      "instrument_type": "SEPP",
+      "version": "10 August 2026",
+      "iso": "2026-08-10",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/epi-2021-0714"
+    },
+    {
+      "doc_id": "biodiversity-conservation-sepp-2021",
+      "title": "SEPP (Biodiversity and Conservation) 2021",
+      "instrument_type": "SEPP",
+      "version": "7 August 2026",
+      "iso": "2026-08-07",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/epi-2021-0722"
+    },
+    {
+      "doc_id": "transport-infrastructure-sepp-2021",
+      "title": "SEPP (Transport and Infrastructure) 2021",
+      "instrument_type": "SEPP",
+      "version": "7 August 2026",
+      "iso": "2026-08-07",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/epi-2021-0732"
+    },
+    {
+      "doc_id": "precincts-western-parkland-city-sepp-2021",
+      "title": "SEPP (Precincts—Western Parkland City) 2021",
+      "instrument_type": "SEPP",
+      "version": "17 July 2026",
+      "iso": "2026-07-17",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/epi-2021-0728"
+    },
+    {
+      "doc_id": "biodiversity-conservation-act-2016",
+      "title": "Biodiversity Conservation Act 2016",
+      "instrument_type": "ACT",
+      "version": "10 July 2026",
+      "iso": "2026-07-10",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-2016-063"
+    },
+    {
+      "doc_id": "codes-sepp-2008",
+      "title": "SEPP (Exempt and Complying Development Codes) 2008",
+      "instrument_type": "SEPP",
+      "version": "8 July 2026",
+      "iso": "2026-07-08",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/epi-2008-0572"
+    },
+    {
+      "doc_id": "industry-employment-sepp-2021",
+      "title": "SEPP (Industry and Employment) 2021",
+      "instrument_type": "SEPP",
+      "version": "1 July 2026",
+      "iso": "2026-07-01",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/epi-2021-0723"
+    },
+    {
+      "doc_id": "precincts-regional-sepp-2021",
+      "title": "SEPP (Precincts—Regional) 2021",
+      "instrument_type": "SEPP",
+      "version": "1 July 2026",
+      "iso": "2026-07-01",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/epi-2021-0727"
+    },
+    {
+      "doc_id": "primary-production-sepp-2021",
+      "title": "SEPP (Primary Production) 2021",
+      "instrument_type": "SEPP",
+      "version": "1 July 2026",
+      "iso": "2026-07-01",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/epi-2021-0729"
+    },
+    {
+      "doc_id": "standard-instrument-lep-order-2006",
+      "title": "Standard Instrument (Local Environmental Plans) Order 2006",
+      "instrument_type": "SEPP",
+      "version": "1 July 2026",
+      "iso": "2026-07-01",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/epi-2006-0155"
+    },
+    {
+      "doc_id": "water-management-act-2000",
+      "title": "Water Management Act 2000",
+      "instrument_type": "ACT",
+      "version": "1 July 2026",
+      "iso": "2026-07-01",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-2000-092"
+    },
+    {
+      "doc_id": "design-building-practitioners-act-2020",
+      "title": "Design and Building Practitioners Act 2020",
+      "instrument_type": "ACT",
+      "version": "10 June 2026",
+      "iso": "2026-06-10",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-2020-007"
+    },
+    {
+      "doc_id": "heritage-act-1977",
+      "title": "Heritage Act 1977",
+      "instrument_type": "ACT",
+      "version": "10 June 2026",
+      "iso": "2026-06-10",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-1977-136"
+    },
+    {
+      "doc_id": "local-government-act-1993",
+      "title": "Local Government Act 1993",
+      "instrument_type": "ACT",
+      "version": "10 June 2026",
+      "iso": "2026-06-10",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-1993-030"
+    },
+    {
+      "doc_id": "rural-fires-act-1997",
+      "title": "Rural Fires Act 1997",
+      "instrument_type": "ACT",
+      "version": "10 June 2026",
+      "iso": "2026-06-10",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-1997-065"
+    },
+    {
+      "doc_id": "sustainable-buildings-sepp-2022",
+      "title": "SEPP (Sustainable Buildings) 2022",
+      "instrument_type": "SEPP",
+      "version": "31 October 2025",
+      "iso": "2025-10-31",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/epi-2022-0521"
+    },
+    {
+      "doc_id": "biodiversity-conservation-regulation-2017",
+      "title": "Biodiversity Conservation Regulation 2017",
+      "instrument_type": "REGULATION",
+      "version": "9 May 2025",
+      "iso": "2025-05-09",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/sl-2017-0432"
+    },
+    {
+      "doc_id": "coastal-management-act-2016",
+      "title": "Coastal Management Act 2016",
+      "instrument_type": "ACT",
+      "version": "9 August 2024",
+      "iso": "2024-08-09",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-2016-020"
+    },
+    {
+      "doc_id": "resilience-hazards-sepp-2021",
+      "title": "SEPP (Resilience and Hazards) 2021",
+      "instrument_type": "SEPP",
+      "version": "4 August 2023",
+      "iso": "2023-08-04",
+      "source_url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/epi-2021-0730"
+    }
+  ],
+  "councils": [
+    {
+      "lga": "Inner West",
+      "documents": 153,
+      "types": [
+        {
+          "name": "DCP",
+          "count": 134
+        },
+        {
+          "name": "COUNCIL_POLICY",
+          "count": 13
+        },
+        {
+          "name": "CONTRIBUTIONS_PLAN",
+          "count": 5
+        },
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 152,
+      "earliest": "2026-09-04",
+      "latest": "2026-09-04"
+    },
+    {
+      "lga": "Wingecarribee",
+      "documents": 97,
+      "types": [
+        {
+          "name": "COUNCIL_POLICY",
+          "count": 42
+        },
+        {
+          "name": "CONTRIBUTIONS_PLAN",
+          "count": 36
+        },
+        {
+          "name": "DCP",
+          "count": 18
+        },
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 96,
+      "earliest": "2026-07-01",
+      "latest": "2026-07-01"
+    },
+    {
+      "lga": "Ku-ring-gai",
+      "documents": 73,
+      "types": [
+        {
+          "name": "DCP",
+          "count": 54
+        },
+        {
+          "name": "COUNCIL_POLICY",
+          "count": 15
+        },
+        {
+          "name": "CONTRIBUTIONS_PLAN",
+          "count": 3
+        },
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 72,
+      "earliest": "2026-07-31",
+      "latest": "2026-07-31"
+    },
+    {
+      "lga": "Bayside",
+      "documents": 65,
+      "types": [
+        {
+          "name": "CONTRIBUTIONS_PLAN",
+          "count": 50
+        },
+        {
+          "name": "COUNCIL_POLICY",
+          "count": 9
+        },
+        {
+          "name": "DCP",
+          "count": 5
+        },
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 64,
+      "earliest": "2026-07-01",
+      "latest": "2026-07-01"
+    },
+    {
+      "lga": "Blacktown",
+      "documents": 45,
+      "types": [
+        {
+          "name": "DCP",
+          "count": 23
+        },
+        {
+          "name": "CONTRIBUTIONS_PLAN",
+          "count": 17
+        },
+        {
+          "name": "COUNCIL_POLICY",
+          "count": 4
+        },
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 44,
+      "earliest": "2026-07-31",
+      "latest": "2026-07-31"
+    },
+    {
+      "lga": "Wollongong",
+      "documents": 38,
+      "types": [
+        {
+          "name": "DCP",
+          "count": 30
+        },
+        {
+          "name": "COUNCIL_POLICY",
+          "count": 5
+        },
+        {
+          "name": "CONTRIBUTIONS_PLAN",
+          "count": 2
+        },
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 37,
+      "earliest": "2026-08-28",
+      "latest": "2026-08-28"
+    },
+    {
+      "lga": "Blue Mountains",
+      "documents": 16,
+      "types": [
+        {
+          "name": "DCP",
+          "count": 6
+        },
+        {
+          "name": "COUNCIL_POLICY",
+          "count": 5
+        },
+        {
+          "name": "CONTRIBUTIONS_PLAN",
+          "count": 4
+        },
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 15,
+      "earliest": "2026-07-01",
+      "latest": "2026-07-01"
+    },
+    {
+      "lga": "Burwood",
+      "documents": 11,
+      "types": [
+        {
+          "name": "COUNCIL_POLICY",
+          "count": 5
+        },
+        {
+          "name": "CONTRIBUTIONS_PLAN",
+          "count": 3
+        },
+        {
+          "name": "DCP",
+          "count": 2
+        },
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 10,
+      "earliest": "2026-07-01",
+      "latest": "2026-07-01"
+    },
+    {
+      "lga": "Northern Beaches",
+      "documents": 3,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 3
+        }
+      ],
+      "dated": 3,
+      "undated": 0,
+      "earliest": "2026-07-01",
+      "latest": "2026-07-10"
+    },
+    {
+      "lga": "Camden",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-07-01",
+      "latest": "2026-07-01"
+    },
+    {
+      "lga": "Campbelltown",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-07-03",
+      "latest": "2026-07-03"
+    },
+    {
+      "lga": "Canada Bay",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-07-01",
+      "latest": "2026-07-01"
+    },
+    {
+      "lga": "Canterbury-Bankstown",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-07-17",
+      "latest": "2026-07-17"
+    },
+    {
+      "lga": "Cumberland",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-07-01",
+      "latest": "2026-07-01"
+    },
+    {
+      "lga": "Fairfield",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-07-01",
+      "latest": "2026-07-01"
+    },
+    {
+      "lga": "Georges River",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-08-21",
+      "latest": "2026-08-21"
+    },
+    {
+      "lga": "Hawkesbury",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 0,
+      "undated": 1,
+      "earliest": null,
+      "latest": null
+    },
+    {
+      "lga": "Hornsby",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-08-07",
+      "latest": "2026-08-07"
+    },
+    {
+      "lga": "Hunters Hill",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-07-01",
+      "latest": "2026-07-01"
+    },
+    {
+      "lga": "Lane Cove",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-07-01",
+      "latest": "2026-07-01"
+    },
+    {
+      "lga": "Liverpool",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-07-01",
+      "latest": "2026-07-01"
+    },
+    {
+      "lga": "Mosman",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-08-14",
+      "latest": "2026-08-14"
+    },
+    {
+      "lga": "North Sydney",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-07-01",
+      "latest": "2026-07-01"
+    },
+    {
+      "lga": "Parramatta",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-09-04",
+      "latest": "2026-09-04"
+    },
+    {
+      "lga": "Penrith",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 0,
+      "undated": 1,
+      "earliest": null,
+      "latest": null
+    },
+    {
+      "lga": "Randwick",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 0,
+      "undated": 1,
+      "earliest": null,
+      "latest": null
+    },
+    {
+      "lga": "Ryde",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-07-01",
+      "latest": "2026-07-01"
+    },
+    {
+      "lga": "Strathfield",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-07-01",
+      "latest": "2026-07-01"
+    },
+    {
+      "lga": "Sutherland Shire",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-09-04",
+      "latest": "2026-09-04"
+    },
+    {
+      "lga": "Sydney",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-08-21",
+      "latest": "2026-08-21"
+    },
+    {
+      "lga": "The Hills",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-09-04",
+      "latest": "2026-09-04"
+    },
+    {
+      "lga": "Waverley",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-07-01",
+      "latest": "2026-07-01"
+    },
+    {
+      "lga": "Willoughby",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-07-01",
+      "latest": "2026-07-01"
+    },
+    {
+      "lga": "Wollondilly",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-07-01",
+      "latest": "2026-07-01"
+    },
+    {
+      "lga": "Woollahra",
+      "documents": 1,
+      "types": [
+        {
+          "name": "LEP",
+          "count": 1
+        }
+      ],
+      "dated": 1,
+      "undated": 0,
+      "earliest": "2026-08-21",
+      "latest": "2026-08-21"
+    }
+  ],
+  "amendments": [
+    {
+      "collection": "sepp-amendments",
+      "documents": 90,
+      "dated": 90,
+      "undated": 0,
+      "earliest": "2024-01-01",
+      "latest": "2026-01-01"
+    },
+    {
+      "collection": "sepp-transport-oriented-development",
+      "documents": 10,
+      "dated": 10,
+      "undated": 0,
+      "earliest": "2024-01-01",
+      "latest": "2026-01-01"
+    }
+  ],
+  "guidance": [
+    {
+      "name": "guidance/circulars",
+      "count": 57
+    },
+    {
+      "name": "guidance/practice-notes",
+      "count": 17
+    },
+    {
+      "name": "guidance/transport-oriented-development",
+      "count": 5
+    },
+    {
+      "name": "regional",
+      "count": 5
+    },
+    {
+      "name": "infrastructure",
+      "count": 4
+    },
+    {
+      "name": "guidance/design",
+      "count": 2
+    },
+    {
+      "name": "guidance/bushfire",
+      "count": 1
+    },
+    {
+      "name": "guidance/complying-development",
+      "count": 1
+    },
+    {
+      "name": "guidance/flood",
+      "count": 1
+    },
+    {
+      "name": "local/wingecarribee",
+      "count": 1
+    }
+  ],
+  "layers": {
+    "verified_at": "2026-09-09",
+    "geocoder": "nsw_address_point",
+    "registered": [
+      {
+        "id": "cadastre_lot",
+        "name": "Lot (NSW DCDB)",
+        "host": "portal.spatial.nsw.gov.au",
+        "layer_id": 8,
+        "service_crs": "EPSG:3857",
+        "query_out_crs": "EPSG:4326",
+        "key_fields": 6,
+        "status": null
+      },
+      {
+        "id": "cadastre_property",
+        "name": "Property (NSW DCDB)",
+        "host": "portal.spatial.nsw.gov.au",
+        "layer_id": 12,
+        "service_crs": "EPSG:3857",
+        "query_out_crs": "EPSG:4326",
+        "key_fields": 0,
+        "status": "not yet used — propertyId resolution lands with the site service (build plan step 1)"
+      },
+      {
+        "id": "address_point",
+        "name": "AddressPoint (NSW Geocoded Addressing Theme)",
+        "host": "portal.spatial.nsw.gov.au",
+        "layer_id": 1,
+        "service_crs": "EPSG:4326",
+        "query_out_crs": "EPSG:4326",
+        "key_fields": 2,
+        "status": null
+      }
+    ]
+  }
+}
