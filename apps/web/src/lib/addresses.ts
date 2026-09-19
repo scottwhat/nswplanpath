@@ -5,6 +5,7 @@ import {
   normaliseAddressQuery,
   type AddressSuggestion,
 } from '@planpath/shared'
+import type { MultiPolygon, Polygon } from 'geojson'
 
 /**
  * Address suggestions from the NSW Geocoded Addressing Theme — real NSW address
@@ -49,6 +50,46 @@ export async function suggestAddresses(
   })
 
   const response = await fetch(`${layerQueryUrl(LAYER_ID)}?${params}`, { signal })
+  return parseAddressResponse(response)
+}
+
+/**
+ * The address points that sit inside a lot — the reverse of the search, so a
+ * lot clicked on the map can be named by its own address rather than keeping
+ * whatever was searched last.
+ *
+ * Posted as a form rather than a GET because a lot's rings can outgrow a URL.
+ */
+export async function fetchAddressesInLot(
+  geometry: Polygon | MultiPolygon,
+  signal?: AbortSignal,
+): Promise<AddressSuggestion[]> {
+  const fields = getLayer(LAYER_ID).key_fields
+  const polygons = geometry.type === 'Polygon' ? [geometry.coordinates] : geometry.coordinates
+  // GeoJSON exteriors are counter-clockwise; Esri wants them clockwise.
+  const rings = polygons.flat().map((ring) => [...ring].reverse())
+
+  const body = new URLSearchParams({
+    geometry: JSON.stringify({ rings, spatialReference: { wkid: 4326 } }),
+    geometryType: 'esriGeometryPolygon',
+    spatialRel: 'esriSpatialRelIntersects',
+    inSR: '4326',
+    outSR: '4326',
+    outFields: [fields.address, fields.gurasid].join(','),
+    returnGeometry: 'true',
+    orderByFields: fields.address,
+    // Large strata blocks carry hundreds of unit addresses; the street address
+    // has to be in the set to be found.
+    resultRecordCount: '1000',
+    f: 'json',
+  })
+
+  const response = await fetch(layerQueryUrl(LAYER_ID), { method: 'POST', body, signal })
+  return parseAddressResponse(response)
+}
+
+async function parseAddressResponse(response: Response): Promise<AddressSuggestion[]> {
+  const fields = getLayer(LAYER_ID).key_fields
   if (!response.ok) {
     throw new Error(`Address lookup failed: ${response.status} ${response.statusText}`)
   }

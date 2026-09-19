@@ -11,7 +11,11 @@ interface SiteState {
    * params rather than here.
    */
   address: AddressSuggestion | null
-  /** DCDB lotidstring of a lot the user clicked, overriding the address lot. */
+  /**
+   * DCDB lotidstring of a lot the user clicked, overriding the address lot.
+   * Clicking a lot drops the searched address — it names a different parcel —
+   * and the clicked lot's own address is looked up from the lot instead.
+   */
   clickedLotId: string | null
   overlays: OverlayId[]
   overlayOpacity: number
@@ -29,7 +33,8 @@ export const useSiteStore = create<SiteState>((set) => ({
   overlayOpacity: 0.6,
   setAddress: (address) => set({ address, clickedLotId: null }),
   clearAddress: () => set({ address: null, clickedLotId: null }),
-  clickLot: (clickedLotId) => set({ clickedLotId }),
+  clickLot: (clickedLotId) =>
+    set(clickedLotId ? { clickedLotId, address: null } : { clickedLotId: null }),
   toggleOverlay: (id) =>
     set((state) => ({
       overlays: state.overlays.includes(id)

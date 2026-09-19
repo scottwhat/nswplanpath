@@ -59,6 +59,20 @@ function Landing() {
         <div className="mb-2.5 flex flex-wrap items-center gap-x-3 gap-y-2">
           <span className="h-4 w-0.5 rounded-full bg-beam-600" aria-hidden="true" />
           <h2 className="readout !text-navy-800">Site</h2>
+          <span className="flex items-center gap-1.5 font-mono text-[11px] tracking-wide text-beam-700">
+            <svg
+              viewBox="0 0 16 16"
+              className="h-3.5 w-3.5"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.4"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M8 1.5 14 5v6l-6 3.5L2 11V5z M2 5l6 3.5L14 5 M8 8.5v6" />
+            </svg>
+            3D maps, click and drag
+          </span>
           {site.hasSelection ? (
             /* The selected site, stated plainly — a lot the user clicked leads,
                with the searched address underneath it. */

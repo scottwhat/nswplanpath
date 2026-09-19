@@ -1,4 +1,4 @@
-import { bboxOfPositions, titleCaseAddress, type Bbox } from '@planpath/shared'
+import { bboxOfPositions, type Bbox, type LotArea } from '@planpath/shared'
 import { useQuery } from '@tanstack/react-query'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import Map, {
@@ -12,6 +12,7 @@ import Map, {
 } from 'react-map-gl/mapbox'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import { env } from '../lib/env'
+import { useSelectedSite } from '../lib/selectedSite'
 import {
   LOT_MIN_ZOOM,
   fetchLotAtPoint,
@@ -41,6 +42,7 @@ export function SiteMap() {
   const address = useAddress()
   const clickedLotId = useClickedLotId()
   const clickLot = useSiteStore((state) => state.clickLot)
+  const site = useSelectedSite()
 
   /** The lot containing the picked address point. */
   const addressLot = useQuery({
@@ -94,9 +96,11 @@ export function SiteMap() {
   const onClick = useCallback(
     (event: MapMouseEvent) => {
       const properties = event.features?.[0]?.properties as LotProperties | undefined
-      clickLot(properties?.lotIdString ?? null)
+      const lotId = properties?.lotIdString ?? null
+      // Clicking the searched address's own lot keeps that address.
+      clickLot(lotId === addressLot.data?.properties.lotIdString ? null : lotId)
     },
-    [clickLot],
+    [clickLot, addressLot.data],
   )
 
   // A clicked lot wins over the address lot; otherwise the address lot stays lit.
@@ -208,12 +212,17 @@ export function SiteMap() {
         error={(lots.error ?? addressLot.error) as Error | null}
         count={lots.data?.features.length ?? 0}
         highlighted={highlighted?.properties ?? null}
-        isAddressLot={Boolean(highlighted) && !clickedLot}
-        addressLabel={address ? titleCaseAddress(address.address) : null}
+        addressLabel={site.addressLabel}
         addressLotMissing={Boolean(address) && addressLot.isFetched && addressLot.data === null}
       />
     </div>
   )
+}
+
+/** "plan area 623.4 m²", or "≈ 601 m² (calculated)" when measured from the polygon. */
+function formatLotArea(area: LotArea): string {
+  if (area.source === 'plan') return `plan area ${area.squareMetres.toLocaleString()} m²`
+  return `≈ ${Math.round(area.squareMetres).toLocaleString()} m² (calculated)`
 }
 
 function MapStatus({
@@ -223,7 +232,6 @@ function MapStatus({
   error,
   count,
   highlighted,
-  isAddressLot,
   addressLabel,
   addressLotMissing,
 }: {
@@ -233,7 +241,6 @@ function MapStatus({
   error: Error | null
   count: number
   highlighted: LotProperties | null
-  isAddressLot: boolean
   addressLabel: string | null
   addressLotMissing: boolean
 }) {
@@ -250,10 +257,8 @@ function MapStatus({
         <>
           <span className="font-semibold text-navy-990">{highlighted.label}</span>
           <span className="mt-0.5 block font-mono text-[11px] text-beam-800">
-            {isAddressLot && addressLabel ? `${addressLabel} · ` : ''}
-            {highlighted.planLotArea != null
-              ? `plan area ${highlighted.planLotArea.toLocaleString()} m²`
-              : 'plan area unknown'}
+            {addressLabel ? `${addressLabel} · ` : ''}
+            {formatLotArea(highlighted.area)}
           </span>
         </>
       ) : loading ? (

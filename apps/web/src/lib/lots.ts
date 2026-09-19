@@ -1,9 +1,12 @@
 import {
+  escapeSqlLiteral,
   esriPolygonToGeoJSON,
   formatLotLabel,
+  geodesicArea,
   getLayer,
   layerQueryUrl,
   type Bbox,
+  type LotArea,
 } from '@planpath/shared'
 import type { LngLat } from '@planpath/shared'
 import type { Feature, FeatureCollection, Polygon, MultiPolygon } from 'geojson'
@@ -25,6 +28,8 @@ export interface LotProperties {
   sectionNumber: string | null
   planLabel: string | null
   planLotArea: number | null
+  /** The plan area when the DCDB has one (about 2% of lots), else measured from the polygon. */
+  area: LotArea
   label: string
 }
 
@@ -46,25 +51,48 @@ function asNumber(value: unknown): number | null {
   return typeof value === 'number' && Number.isFinite(value) ? value : null
 }
 
-async function queryLots(
+/** A spatial filter for `queryLots`. */
+function intersecting(
   geometry: object,
   geometryType: 'esriGeometryEnvelope' | 'esriGeometryPoint',
-  extra: Record<string, string>,
+): Record<string, string> {
+  return {
+    geometry: JSON.stringify(geometry),
+    geometryType,
+    spatialRel: 'esriSpatialRelIntersects',
+    inSR: '4326',
+  }
+}
+
+/**
+ * Only a square-metre plan area is trusted as-is. Every populated planlotarea
+ * seen so far is "Meters"; anything else falls back to measuring rather than
+ * guessing a conversion.
+ */
+function lotArea(
+  planLotArea: number | null,
+  units: string | null,
+  geometry: Polygon | MultiPolygon,
+): LotArea {
+  if (planLotArea != null && planLotArea > 0 && units === 'Meters') {
+    return { squareMetres: planLotArea, source: 'plan' }
+  }
+  return { squareMetres: geodesicArea(geometry), source: 'calculated' }
+}
+
+async function queryLots(
+  filter: Record<string, string>,
   signal?: AbortSignal,
 ): Promise<LotFeature[]> {
   const layer = getLayer(LAYER_ID)
   const fields = layer.key_fields
 
   const params = new URLSearchParams({
-    geometry: JSON.stringify(geometry),
-    geometryType,
-    spatialRel: 'esriSpatialRelIntersects',
-    inSR: '4326',
     outSR: '4326',
     outFields: Object.values(fields).join(','),
     returnGeometry: 'true',
     f: 'json',
-    ...extra,
+    ...filter,
   })
 
   const response = await fetch(`${layerQueryUrl(LAYER_ID)}?${params}`, { signal })
@@ -95,13 +123,14 @@ async function queryLots(
       planLabel: asString(attributes[fields.plan_label]),
       planLotArea: asNumber(attributes[fields.plan_area]),
     }
+    const units = asString(attributes[fields.plan_area_units])
 
     return [
       {
         type: 'Feature' as const,
         id: lot.lotIdString,
         geometry,
-        properties: { ...lot, label: formatLotLabel(lot) },
+        properties: { ...lot, area: lotArea(lot.planLotArea, units, geometry), label: formatLotLabel(lot) },
       },
     ]
   })
@@ -112,9 +141,13 @@ export async function fetchLotsInBbox(bbox: Bbox, signal?: AbortSignal): Promise
   const [west, south, east, north] = bbox
   const layer = getLayer(LAYER_ID)
   const features = await queryLots(
-    { xmin: west, ymin: south, xmax: east, ymax: north, spatialReference: { wkid: 4326 } },
-    'esriGeometryEnvelope',
-    { resultRecordCount: String(layer.max_record_count ?? 1000) },
+    {
+      ...intersecting(
+        { xmin: west, ymin: south, xmax: east, ymax: north, spatialReference: { wkid: 4326 } },
+        'esriGeometryEnvelope',
+      ),
+      resultRecordCount: String(layer.max_record_count ?? 1000),
+    },
     signal,
   )
   return { type: 'FeatureCollection', features }
@@ -134,9 +167,26 @@ export async function fetchLotAtPoint(
   signal?: AbortSignal,
 ): Promise<LotFeature | null> {
   const features = await queryLots(
-    { x: point.longitude, y: point.latitude, spatialReference: { wkid: 4326 } },
-    'esriGeometryPoint',
-    { resultRecordCount: '1' },
+    {
+      ...intersecting(
+        { x: point.longitude, y: point.latitude, spatialReference: { wkid: 4326 } },
+        'esriGeometryPoint',
+      ),
+      resultRecordCount: '1',
+    },
+    signal,
+  )
+  return features[0] ?? null
+}
+
+/** One lot by its DCDB lotidstring, e.g. "102//DP1090074". */
+export async function fetchLotById(
+  lotIdString: string,
+  signal?: AbortSignal,
+): Promise<LotFeature | null> {
+  const fields = getLayer(LAYER_ID).key_fields
+  const features = await queryLots(
+    { where: `${fields.lot_id} = '${escapeSqlLiteral(lotIdString)}'`, resultRecordCount: '1' },
     signal,
   )
   return features[0] ?? null

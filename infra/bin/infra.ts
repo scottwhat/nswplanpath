@@ -30,7 +30,13 @@ new ChatStack(app, 'PlanPathChatStack', {
   // server on any other port is blocked by CORS — Vite's default is 5173 and
   // it falls through to 5174 when that is taken. www 301s to the apex, so it
   // never calls the API itself.
-  allowedOrigins: [`https://${DOMAIN}`, 'http://localhost:5173', 'http://localhost:5174'],
+  // The Amplify default domain is the pre-DNS preview of the same build.
+  allowedOrigins: [
+    `https://${DOMAIN}`,
+    'https://main.d1nkv7ou7yoy7u.amplifyapp.com',
+    'http://localhost:5173',
+    'http://localhost:5174',
+  ],
 
   harnessArn: bareHarnessArn(
     'arn:aws:bedrock-agentcore:us-east-1:403903769495:harness/nswplanningpathways-qQEuV1iR6r/harness-endpoint/DEFAULT',

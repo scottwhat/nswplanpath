@@ -2,6 +2,7 @@ import { titleCaseAddress, type AddressSuggestion } from '@planpath/shared'
 import { useQuery } from '@tanstack/react-query'
 import { useEffect, useId, useRef, useState, type KeyboardEvent } from 'react'
 import { MIN_QUERY_LENGTH, suggestAddresses } from '../lib/addresses'
+import { useSelectedSite } from '../lib/selectedSite'
 import { useSiteStore } from '../stores/useSiteStore'
 
 /**
@@ -17,6 +18,13 @@ export function AddressSearch() {
   const [activeIndex, setActiveIndex] = useState(-1)
   const listboxId = useId()
   const containerRef = useRef<HTMLDivElement>(null)
+  const { lotLabel, addressLabel } = useSelectedSite()
+
+  // A lot clicked on the map replaces the searched address, so the box follows
+  // it: the lot's own address once it resolves, blank if it has none.
+  useEffect(() => {
+    if (lotLabel) setValue(addressLabel ?? '')
+  }, [lotLabel, addressLabel])
 
   useEffect(() => {
     const timer = setTimeout(() => setDebounced(value), 220)
